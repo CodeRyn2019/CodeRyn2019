@@ -1,16 +1,14 @@
-### Hi there 👋
+## Hey, I'm CodeRyn! 👋
+```kotlin
+class Developer(val name: String, val languages: List<String>, val favorite: String, val github: String)
 
-<!--
-**CodeRyn2019/CodeRyn2019** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+fun main() {
+    val introduction = Developer(
+        name = "CodeRyn",
+        languages = listOf("Kotlin", "Java", "C++", ".Net"),
+        favorite = "Kotlin",
+        github = "@CodeRyn2019"
+    )
+}
+```
+[![GitHub WidgetBox](https://github-widgetbox.vercel.app/api/profile?username=CodeRyn2019&data=followers,repositories,stars,commits)](https://github.com/Jurredr/github-widgetbox)
