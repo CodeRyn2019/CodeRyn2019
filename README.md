@@ -5,7 +5,7 @@ class Developer(val name: String, val languages: List<String>, val favorite: Str
 fun main() {
     val introduction = Developer(
         name = "CodeRyn",
-        languages = listOf("Kotlin", "Java", "C++", "C#"),
+        languages = listOf("Kotlin", "C#", "Java", "C++"),
         favorite = "Kotlin",
         github = "@CodeRyn2019"
     )
