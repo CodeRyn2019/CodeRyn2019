@@ -1,4 +1,4 @@
-## Hey, I'm CodeRyn! 👋
+## Hello, I'm CodeRyn! 👋
 ```kotlin
 class Developer(val name: String, val languages: List<String>, val favorite: String, val github: String)
 
